@@ -1,14 +1,14 @@
-//DV, Cyclone code 2/15/15 modified during hackahon. 
+//DV, Cyclone code 3/5/14 ser in/analog in/servo pulse in, closed loop on encoder
 //put in homing, analog in, serial setpoint cmd "sp xxxx" 
 //tested motor shield/position loop on cyclone, 10A cytrone motorshield
 //robogaia+USdigital incr enc
 //WIP for hakathon on 2/15
 //remove: filter current signal scratch. DV 2/15 done
 //add limit switch functionality
-//sensible comands, hand typable
+//sensible comands, hand typable //SP xxx added
 //gui readbacks disablable
 //analog feedback mode
-//pwm input mode
+//pwm input mode DONE
 //manual/auto mode
 //current limits
 #include <FreeRTOS_AVR.h>
